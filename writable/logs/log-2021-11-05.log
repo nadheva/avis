@@ -1,0 +1,154 @@
+CRITICAL - 2021-11-05 08:20:23 --> Undefined property: stdClass::$countermeasuer
+#0 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 08:20:40 --> Undefined property: stdClass::$source
+#0 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 08:56:00 --> Undefined property: stdClass::$file
+#0 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 08:56:13 --> Undefined property: stdClass::$file
+#0 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 251, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 08:56:14 --> Undefined property: stdClass::$file
+#0 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 251, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 11:36:12 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 105
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Helpers\url_helper.php(105): _get_uri(NULL, NULL)
+#1 C:\xampp\htdocs\avis\app\Views\lessonlearn\index.php(106): site_url(NULL)
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('lessonlearn/ind...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(44): view('lessonlearn/ind...', Array)
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 11:39:56 --> Too few arguments to function App\Controllers\Lessonlearn::ajax_detail_view(), 1 passed in C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 2 expected
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('7')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\avis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-05 11:42:30 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-05 11:42:30 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `lessonl...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessonl...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessonl...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `lessonl...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\LessonLearnModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(70): App\Models\LessonLearnModel->getAllLesson('2')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('2', '7')
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-05 11:42:33 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-05 11:42:33 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `lessonl...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessonl...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessonl...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `lessonl...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\LessonLearnModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(70): App\Models\LessonLearnModel->getAllLesson('7')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('7')
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-05 11:44:14 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-05 11:44:14 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `lessonl...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessonl...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessonl...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `lessonl...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\LessonLearnModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(70): App\Models\LessonLearnModel->getAllLesson('2')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('2', '7')
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-05 11:44:15 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-05 11:44:15 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `lessonl...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessonl...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessonl...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `lessonl...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\LessonLearnModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(70): App\Models\LessonLearnModel->getAllLesson('7')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('7')
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-05 11:44:58 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-05 11:44:58 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `lessonl...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessonl...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessonl...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `lessonl...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\LessonLearnModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(70): App\Models\LessonLearnModel->getAllLesson('7')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->ajax_detail_view('7')
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-05 15:58:55 --> Column 'status' cannot be null
+CRITICAL - 2021-11-05 15:58:55 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `le...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `le...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `le...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `le...', Array, false)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\avis\app\Controllers\Lessonlearn.php(135): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Lessonlearn->updatelesson()
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lessonlearn))
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

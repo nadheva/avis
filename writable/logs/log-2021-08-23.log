@@ -1,0 +1,322 @@
+CRITICAL - 2021-08-23 07:35:13 --> Trying to get property 'total' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 1109, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(156): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 07:37:23 --> Trying to get property 'total' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 1109, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(156): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('6', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 07:51:36 --> Undefined variable: currenteventname
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(156): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 07:54:55 --> Undefined variable: currenteventname
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(156): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 09:57:42 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1131): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 1131, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(161): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 10:14:04 --> Undefined variable: over_due
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 226, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(161): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 10:23:49 --> Undefined variable: child_task
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(428): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 428, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(167): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('5', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 10:29:54 --> Undefined property: stdClass::$project_id
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(168): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 10:33:40 --> Undefined variable: c_done
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(168): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 10:34:03 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(168): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 11:09:52 --> Undefined property: stdClass::$used_mcomp
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1468, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('5', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 11:11:40 --> Undefined property: stdClass::$used_mcomp
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1468, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('5', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 11:12:01 --> Undefined property: stdClass::$used_mcomp
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1468, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('5', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 11:31:47 --> Undefined property: stdClass::$notes
+#0 C:\xampp\htdocs\pdavi\app\Views\rio\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 207, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('rio/index', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Rio.php(43): view('rio/index', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Rio->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rio))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 13:14:44 --> Undefined property: stdClass::$pp1smt
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(87): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 13:15:12 --> Undefined variable: ctaskid
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(321): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 321, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(87): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 13:20:30 --> Undefined variable: ctaskid
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 324, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(88): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 13:38:22 --> Undefined offset: 2
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(113): lasteventname(Array)
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-23 13:41:03 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(113): lasteventname(Array)
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-23 13:47:15 --> Undefined offset: 0
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(114): lasteventname(Array)
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-23 13:47:16 --> Undefined offset: 0
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(114): lasteventname(Array)
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(176): view('user/detailproj...', Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-23 15:40:29 --> Cannot declare class App\Controllers\Rio, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-23 15:40:49 --> Undefined variable: model
+#0 C:\xampp\htdocs\pdavi\app\Views\bom\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(43): view('bom/index', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 15:41:06 --> Undefined variable: project
+#0 C:\xampp\htdocs\pdavi\app\Views\bom\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(43): view('bom/index', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 15:41:45 --> Undefined variable: users
+#0 C:\xampp\htdocs\pdavi\app\Views\bom\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(31): view('bom/index', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 15:43:15 --> Undefined variable: rio
+#0 C:\xampp\htdocs\pdavi\app\Views\bom\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(31): view('bom/index', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 15:51:48 --> Cannot declare class App\Models\CustModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-23 15:52:10 --> Undefined property: App\Controllers\Bom::$bomModel
+#0 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->addmodel()
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-23 16:23:48 --> Unknown column 'namafile' in 'field list'
+CRITICAL - 2021-08-23 16:23:48 --> Unknown column 'namafile' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `model`,...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `model`,...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `model`,...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `model`,...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->model('3')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-23 16:26:08 --> Invalid file: bom/model/3.php
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bom/model/3.php')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/model/3', Array, true)
+#2 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(47): view('bom/model/3', Array)
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->model('3')
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-23 16:28:06 --> Invalid file: bom/model/.php
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bom/model/.php')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/model/', Array, true)
+#2 C:\xampp\htdocs\pdavi\app\Controllers\Bom.php(47): view('bom/model/', Array)
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->model('3')
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

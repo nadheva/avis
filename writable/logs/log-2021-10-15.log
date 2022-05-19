@@ -1,0 +1,405 @@
+ERROR - 2021-10-15 08:51:58 --> Unknown column 'approval_engchange_request.engchange_request_id' in 'on clause'
+CRITICAL - 2021-10-15 08:51:58 --> Unknown column 'approval_engchange_request.engchange_request_id' in 'on clause'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(67): App\Models\EngchangeRequestModel->getUserApprovalEngchange()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 08:52:31 --> Unknown column 'engchange_request.req_id' in 'on clause'
+CRITICAL - 2021-10-15 08:52:31 --> Unknown column 'engchange_request.req_id' in 'on clause'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(67): App\Models\EngchangeRequestModel->getUserApprovalEngchange()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 08:55:53 --> Undefined property: stdClass::$req_id
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 285, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 08:56:45 --> Undefined property: stdClass::$update_date
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(302): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 302, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-15 08:57:02 --> Column 'created_at' in field list is ambiguous
+CRITICAL - 2021-10-15 08:57:02 --> Column 'created_at' in field list is ambiguous
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(62): App\Models\EngchangeModel->getRequest('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 09:14:50 --> Unknown column 'project_name' in 'field list'
+CRITICAL - 2021-10-15 09:14:50 --> Unknown column 'project_name' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(62): App\Models\EngchangeModel->getRequest('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 09:14:59 --> Unknown column 'project_name' in 'field list'
+CRITICAL - 2021-10-15 09:14:59 --> Unknown column 'project_name' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(62): App\Models\EngchangeModel->getRequest('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '1')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 09:15:09 --> Unknown column 'project_name' in 'field list'
+CRITICAL - 2021-10-15 09:15:09 --> Unknown column 'project_name' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(62): App\Models\EngchangeModel->getRequest('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 09:16:11 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(103): mkdir('public/theme/as...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->addrequest()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-15 09:18:14 --> Undefined property: stdClass::$project_name
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 291, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 09:18:58 --> Undefined property: stdClass::$project_name
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 291, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 09:19:49 --> Undefined property: stdClass::$projectrow
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 291, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 09:20:08 --> filesize(): stat failed for public/theme/assets/4m change request/K2SA/dummies.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 302, Array)
+#1 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(302): filesize('public/theme/as...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 09:21:29 --> Undefined property: stdClass::$update_date
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 313, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 11:08:54 --> Call to undefined method App\Models\ApproveRioModel::getRequest
+#0 C:\xampp\htdocs\pdavi\app\Controllers\User.php(52): CodeIgniter\Model->__call('getRequest', Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-15 11:12:08 --> Unknown column 'engchange_request.approve_user' in 'on clause'
+CRITICAL - 2021-10-15 11:12:08 --> Unknown column 'engchange_request.approve_user' in 'on clause'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(54): App\Models\EngchangeRequestModel->getRequest('40')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 11:12:55 --> Not unique table/alias: 'engchange_request'
+CRITICAL - 2021-10-15 11:12:55 --> Not unique table/alias: 'engchange_request'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(54): App\Models\EngchangeRequestModel->getRequest('40')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 11:13:00 --> Not unique table/alias: 'engchange_request'
+CRITICAL - 2021-10-15 11:13:00 --> Not unique table/alias: 'engchange_request'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(54): App\Models\EngchangeRequestModel->getRequest('40')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-15 11:13:05 --> Not unique table/alias: 'engchange_request'
+CRITICAL - 2021-10-15 11:13:05 --> Not unique table/alias: 'engchange_request'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(54): App\Models\EngchangeRequestModel->getRequest('40')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 11:24:07 --> Undefined property: stdClass::$fullname
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(956): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 956, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(148): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 11:32:50 --> Undefined variable: myRequest4ma
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(951): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 951, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(148): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 13:14:28 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3654): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 3654, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(149): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 13:15:39 --> Undefined variable: projectrow
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3667): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3667, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(150): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 13:25:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pdavi\app\Views\engchange\list.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 284, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('engchange/list', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Engchange.php(82): view('engchange/list', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Engchange->list('2', '2')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Engchange))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 13:46:52 --> Undefined property: stdClass::$line
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(935): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 935, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 13:47:17 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(939): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 939, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-15 13:47:27 --> Column 'status' in field list is ambiguous
+CRITICAL - 2021-10-15 13:47:27 --> Column 'status' in field list is ambiguous
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(142): App\Models\EngchangeRequestModel->getUserApprovalEngchange('38')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 14:07:44 --> Undefined property: stdClass::$project_name
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3821): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3821, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 14:08:40 --> Undefined property: stdClass::$fourm
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3828): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3828, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-15 14:08:51 --> Unknown column 'fourm' in 'field list'
+CRITICAL - 2021-10-15 14:08:51 --> Unknown column 'fourm' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(142): App\Models\EngchangeRequestModel->getUserApprovalEngchange('22')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 14:09:37 --> Undefined property: stdClass::$reason
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3844): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3844, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 14:18:06 --> Undefined property: stdClass::$created_at
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(3903): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3903, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-15 14:18:24 --> Column 'created_at' in field list is ambiguous
+CRITICAL - 2021-10-15 14:18:24 --> Column 'created_at' in field list is ambiguous
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `engchan...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `engchan...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `engchan...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `engchan...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\EngchangeRequestModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\User.php(142): App\Models\EngchangeRequestModel->getUserApprovalEngchange('22')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-15 14:35:53 --> Undefined property: stdClass::$t_app
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(4141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 4141, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-15 15:12:46 --> Undefined property: stdClass::$testresult_eng
+#0 C:\xampp\htdocs\pdavi\app\Views\user\dashboard.php(4124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 4124, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(151): view('user/dashboard', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

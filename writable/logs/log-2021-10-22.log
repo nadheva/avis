@@ -1,0 +1,121 @@
+CRITICAL - 2021-10-22 09:08:07 --> Undefined property: stdClass::$a_file
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(2853): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 2853, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(252): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-22 09:08:23 --> Undefined property: stdClass::$update_date
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(2875): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 2875, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(252): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 09:12:02 --> Column 'created_at' in field list is ambiguous
+CRITICAL - 2021-10-22 09:12:02 --> Column 'created_at' in field list is ambiguous
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `project...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 09:30:05 --> Unknown column 'approval.file' in 'field list'
+CRITICAL - 2021-10-22 09:30:05 --> Unknown column 'approval.file' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `project...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(181): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 09:31:59 --> Unknown column 'approval.file' in 'field list'
+CRITICAL - 2021-10-22 09:31:59 --> Unknown column 'approval.file' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `project...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\User.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 09:32:01 --> Unknown column 'approval.file' in 'field list'
+CRITICAL - 2021-10-22 09:32:01 --> Unknown column 'approval.file' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `project...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `project...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `project...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `project...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Models\TaskModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\app\Controllers\Task.php(44): App\Models\TaskModel->getAllTask()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Task->index()
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#8 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-22 09:41:12 --> Undefined property: stdClass::$a_file
+#0 C:\xampp\htdocs\pdavi\app\Views\user\task.php(1093): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1093, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/task', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Task.php(64): view('user/task', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Task->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 09:48:35 --> Unknown column 'file' in 'field list'
+CRITICAL - 2021-10-22 09:48:35 --> Unknown column 'file' in 'field list'
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pdavi\app\Controllers\Task.php(288): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Task->addtask('2')
+#10 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#11 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-22 10:15:27 --> Undefined property: stdClass::$namafile
+#0 C:\xampp\htdocs\pdavi\app\Views\user\task.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 242, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/task', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Task.php(64): view('user/task', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Task->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-22 11:27:47 --> Column 'namafile' in field list is ambiguous
+CRITICAL - 2021-10-22 11:27:47 --> Column 'namafile' in field list is ambiguous
+#0 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `child_t...')
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `child_t...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `child_t...')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `child_t...', Array, false)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

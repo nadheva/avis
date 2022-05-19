@@ -1,0 +1,9 @@
+CRITICAL - 2021-09-29 10:53:18 --> array_count_values(): Can only count STRING and INTEGER values!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_count_val...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\pdavi\app\Models\ProjectModel.php(217): array_count_values(Array)
+#2 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(207): App\Models\ProjectModel->getPicTaskPerformance('2')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

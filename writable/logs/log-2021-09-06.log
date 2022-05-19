@@ -1,0 +1,93 @@
+CRITICAL - 2021-09-06 09:53:51 --> Undefined variable: eventInternal
+#0 C:\xampp\htdocs\pdavi\app\Views\user\testing.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/testing', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Home.php(43): view('user/testing', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->test()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 10:48:27 --> Undefined variable: timelines
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(291): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('1', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 10:52:07 --> Undefined property: stdClass::$event
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(397): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 397, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(293): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('1', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 13:07:22 --> Undefined property: stdClass::$finish
+#0 C:\xampp\htdocs\pdavi\app\Views\user\detailproject.php(1186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1186, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/detailproj...', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(293): view('user/detailproj...', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('1', '1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 13:22:26 --> Trying to get property 'project_name' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 270, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('2', '1')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-06 14:36:26 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\pdavi\app\Models\ProjectModel.php(47): strtotime('+1 day', '2021-09-02')
+#2 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(287): App\Models\ProjectModel->getJsonEventCustomer('1')
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->detailproject('1', '1')
+#4 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-06 15:52:31 --> Trying to get property 'role' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Views\user\project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(58): view('user/project', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->index('1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 16:08:48 --> Trying to get property 'role' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Views\user\project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Project.php(58): view('user/project', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Project->index('1')
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-06 16:08:48 --> Trying to get property 'role' of non-object
+#0 C:\xampp\htdocs\pdavi\app\Views\user\customer.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/customer', Array, true)
+#4 C:\xampp\htdocs\pdavi\app\Controllers\Customer.php(34): view('user/customer', Array)
+#5 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Customer->index()
+#6 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+#7 C:\xampp\htdocs\pdavi\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pdavi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,721 @@
+﻿<?php
+
+namespace App\Controllers;
+
+use App\Models\AdminModel;
+use App\Models\ProjectModel;
+use App\Models\TaskModel;
+use App\Models\CustModel;
+use App\Models\CostModel;
+use App\Models\ApproveModel;
+use App\Models\TimelineModel;
+
+
+class Project extends BaseController
+{
+    /**
+     * Instance of the main Request object.
+     *
+     * @var HTTP\IncomingRequest
+     */
+    protected $request;
+    protected $db, $builder, $adminmodel;
+    public function __construct()
+    {
+        $this->adminModel = new AdminModel();
+        $this->projectModel = new ProjectModel();
+        $this->custModel = new CustModel();
+        $this->costModel = new CostModel();
+        $this->approveModel = new ApproveModel();
+        $this->taskModel = new TaskModel();
+        $this->timelineModel = new timelineModel();
+        $this->db      = \Config\Database::connect();
+    }
+
+    public function index()
+    {
+        if (!logged_in()) {
+            session()->setFlashData('error', 'Please enter valid credentials');
+            return redirect()->to('/login');
+        }
+        if(user()->level_id == 7 || user()->level_id == 8){ return redirect()->to('/user'); }
+        $this->builder = $this->db->table('customer');
+        $query = $this->builder->get()->getResult();
+        $this->builder = $this->db->table('users');
+        $this->builder->where('id !=', 1);
+        $user = $this->builder->get()->getResult();
+        foreach($this->projectModel->getProjectJoinCust() as $row) {
+            $temp = $this->projectModel->getCurrentEvent($this->projectModel->getEventInternal($row->id));
+            $curr[] = $temp;
+            $templast = $this->projectModel->getNextEvent($this->projectModel->getEventInternal($row->id));
+            $last[] = $templast;
+            $finance[] = $this->projectModel->getFinancialStat($row->id);
+            $qual[] = $this->projectModel->getQualityStat($row->id);
+            $lastupdate[] = $this->projectModel->getLastUpdateProject($this->projectModel->getLastUpdatedTask($row->id),$this->projectModel->getLastUpdatedQuality($row->id),$this->projectModel->getLastUpdateProductivity($row->id),$this->projectModel->getLastUpdatedFinance($row->id),);
+        }
+        foreach($curr as $row) {
+            if($row != NULL){ $currentEvent[] = $row->event; } else { $currentEvent[] = '-'; }
+        }
+        foreach($last as $row) {
+            if($row != NULL){ $lastEvent[] = $row->event; } else { $lastEvent[] = '-'; }
+        }
+        foreach($curr as $row) {
+            if($row != NULL) { $flagdev[] = $this->projectModel->getFlagDelivery($row->event, date('Y-m-d' ,strtotime($row->date))); } else { $flagdev[] = 'red'; }
+        }
+        // dd($flagdev);
+        $allproj = $this->projectModel->getProjectJoinCust();
+        $lop=0;
+        $loplast=0;
+        $lopfin=0;
+        $lopqual=0;
+        $loplastupdate=0;
+        $lopflagdev=0;
+        foreach($allproj as $row) {
+            $out[] = [
+                'project_name' => $row->project_name,
+                'customer_name' => $row->customer_name,
+                'end_product' => $row->end_product,
+                'id' => $row->id,
+                'fullname' => $row->fullname,
+                'cust_id' => $row->cust_id,
+                'status' => $row->status,
+                'current_event' => $currentEvent[$lop++],
+                'last_event' => $lastEvent[$loplast++],
+                'finance' => $finance[$lopfin++],
+                'qual' => $qual[$lopqual++],
+                'delivery' => $flagdev[$lopflagdev++],
+                'lastupdate' => $lastupdate[$loplastupdate++],
+                'type' => $row->type,
+                'cust_id' => $row->cust_id,
+                'project_id' => $row->id
+            ];
+        }
+        $col = array_column($out, 'lastupdate');
+        array_multisort($col, SORT_DESC, $out);
+        $tempArr2 = array_unique(array_column($out, 'lastupdate'));
+        $result = array_intersect_key($out,$tempArr2);
+        $output = json_decode(json_encode($result));
+        // dd($output[0]);
+        $data = [
+            'tittle' => 'Summary Project',
+            'active_menu' => 'project',
+            'customer' => $query,
+            'user' => $user,
+            'pwba' => $this->projectModel->getProductPWBA(),
+            'cluster' => $this->projectModel->getProductCluster(),
+            'ahu' => $this->projectModel->getProductAHU(),
+            'project' => $output,
+            'validation' => \Config\Services::validation(),
+            'notif' => $this->adminModel->getNotif()
+        ];
+        return view('project/index', $data);
+    }
+
+    // public function index($id = NULL)
+    // {
+    //     if (!logged_in()) {
+    //         session()->setFlashData('error', 'Please enter valid credentials');
+    //         return redirect()->to('/login');
+    //     }
+    //     if(user()->level_id == 7 || user()->level_id == 8){ return redirect()->to('/user'); }
+    //     $this->builder = $this->db->table('customer');
+    //     $this->builder->select('customer.id as c_id, project.id as p_id, project_name, start, customer_name, end_product, status');
+    //     $this->builder->join('project', 'project.cust_id = customer.id');
+    //     $this->builder->where('customer.id', $id);
+    //     $query = $this->builder->get();
+    //     $this->builder = $this->db->table('customer');
+    //     $this->builder->select('customer.id as c_id, project.id as p_id, project_name, start, customer_name, end_product, status');
+    //     $this->builder->join('project', 'project.cust_id = customer.id');
+    //     $this->builder->orderBy('p_id', 'DESC');
+    //     $project_id = $this->builder->get();
+    //     $this->builder = $this->db->table('customer');
+    //     $this->builder->where('id', $id);
+    //     $queryc = $this->builder->get();
+    //     $data = [
+    //         'tittle' => 'Project list',
+    //         'active_menu' => 'project',
+    //         'project' => $query->getResult(),
+    //         'customer' => $queryc->getRow(),
+    //         'project_id' => $project_id->getRow('p_id'),
+    //         'validation' => \Config\Services::validation(),
+    //         'notif' => $this->adminModel->getNotif()
+    //     ];
+
+    //     return view('user/project', $data);
+    // }
+
+    public function addproject()
+    {
+        $id = $this->request->getVar('cust_id');
+        if (!$this->validate([
+            'project_name' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} nama harus diisi',
+                ]
+            ]
+        ])) {
+            session()->setFlashData('error', 'Project name is required field');
+            return redirect()->to('/project')->withInput();
+        };
+        $this->projectModel->save([
+            'cust_id' => $id,
+            'project_name' => $this->request->getVar('project_name'),
+            'start' => date("Y-m-d", time()),
+            'customer' => $this->request->getVar('customer'),
+            'end_product' => $this->request->getVar('endpro'),
+            'leader' => $this->request->getVar('leader'),
+            'status' => "In Progress",
+        ]);
+        $p_id = $this->projectModel->getInsertID();
+        $material_cost = [
+            'project_id' => $p_id,
+            'total' => 0,
+            'mcomp' => 0,
+            'ecomp' => 0,
+            'used_mcomp' => 0,
+            'used_ecomp' => 0,
+        ];
+        $this->builder = $this->db->table('material_cost');
+        $this->builder->insert($material_cost);
+        $budget = [
+            'project_id' => $p_id,
+            'total' => 0,
+            'smt' => 0,
+            'fa' => 0,
+            'tooling' => 0,
+            'used_smt' => 0,
+            'used_fa' => 0,
+            'used_tooling' => 0,
+        ];
+        $this->builder = $this->db->table('budget');
+        $this->builder->insert($budget);
+        $launch_cost = [
+            'project_id' => $p_id,
+            'total' => 0,
+            'pv' => 0,
+            'launch' => 0,
+            'other' => 0,
+            'used_pv' => 0,
+            'used_launch' => 0,
+            'used_other' => 0,
+        ];
+        $this->builder = $this->db->table('launch_cost');
+        $this->builder->where('project_id', $id);
+        $this->builder->insert($launch_cost);
+        if (!file_exists('public/theme/assets/document/' . $this->request->getVar('project_name'))) {
+            mkdir('public/theme/assets/document/' . $this->request->getVar('project_name'));
+        }
+        session()->setFlashData('pesan', 'Success! new project has been created');
+        return redirect()->to('project');
+    }
+
+    public function detailproject($id = 0, $idc = 0)
+    {
+        if (!logged_in()) {
+            session()->setFlashData('error', 'Please enter valid credentials');
+            return redirect()->to('/login');
+        }
+        if(user()->level_id == 7 || user()->level_id == 8){ return redirect()->to('/user'); }
+        $this->builder = $this->db->table('project');
+        $this->builder->select('project.id as p_id, fullname, project_name, task.id as task_id, event, concern, due_date, pic, task.status, namafile, event_name, task.updated_at, request_at');
+        $this->builder->join('task', 'task.project_id = project.id');
+        $this->builder->join('users', 'users.id = task.pic');
+        $this->builder->join('event_internal', 'event_internal.id = task.event');
+        $this->builder->where('project.id', $id);
+        $this->builder->orderBy('status', 'DESC');
+        $query = $this->builder->get();
+        $this->builder = $this->db->table('users');
+        $this->builder->where('id !=', 1);
+        $this->builder->orderBy('fullname', 'ASC');
+        $queryu = $this->builder->get();
+        $this->builder = $this->db->table('customer');
+        $this->builder->where('id', $idc);
+        $queryc = $this->builder->get();
+        $this->builder = $this->db->table('budget');
+        $this->builder->where('project_id', $id);
+        $budget = $this->builder->get();
+        $this->builder = $this->db->table('launch_cost');
+        $this->builder->where('project_id', $id);
+        $launch_cost = $this->builder->get();
+        $this->builder = $this->db->table('material_cost');
+        $this->builder->where('project_id', $id);
+        $material_cost = $this->builder->get();
+        $this->builder = $this->db->table('project');
+        $this->builder->where('id', $id);
+        $queryp = $this->builder->get();
+        $this->builder = $this->db->table('task');
+        $this->builder->orderBy('id', 'DESC');
+        $count_task = $this->builder->get();
+        $this->builder = $this->db->table('approval');
+        $this->builder->select('approval.id as a_id, routes, pic, approval.approve as ap, task.approve as t_app, users.id, fullname, approve_user, task.id as t_task_id, approval.task_id as a_task_id');
+        $this->builder->join('task', 'task.id = approval.task_id');
+        $this->builder->join('users', 'users.id = approval.approve_user');
+        $this->builder->orderBy('approval.id', 'ASC');
+        $queryau = $this->builder->get();
+        $this->builder = $this->db->table('project');
+        $this->builder->select('project.id as p_id, task.file as t_file, task.approve as t_app, notes, update_date, fullname, project_name, task.id as task_id, event, concern, due_date, pic, task.status, update_date, routes, updated, approve_user, approval.approve as ap, approval.id as a_id, approval.task_id as at_id');
+        $this->builder->join('task', 'task.project_id = project.id');
+        $this->builder->join('users', 'users.id = task.pic');
+        $this->builder->join('approval', 'approval.task_id = task.id');
+        $this->builder->orderBy('a_id', 'DESC');
+        $queryarl = $this->builder->get();
+        $this->builder = $this->db->table('child_task');
+        $this->builder->select('child_task.id as cid, approve_user, updated, child_task.file as c_file, child_task.task_id as ctask_id, child_task.concern, child_task.status as cstat, task.pic as tpic, child_task.pic, child_task.due_date, fullname, child_task.approve capp, project_name, child_task_approval.approve as ctapp, task.event, task.concern as parent, child_task_approval.id as cta_id, task.project_id, update_date, notes, child_task_approval.file as ct_file, child_task_id, event_name, child_task.namafile, child_task.description as desc, child_task.updated_at');
+        $this->builder->join('users', 'users.id = child_task.pic');
+        $this->builder->join('task', 'task.id = child_task.task_id');
+        $this->builder->join('child_task_approval', 'child_task_approval.child_task_id = child_task.id');
+        $this->builder->join('project', 'task.project_id = project.id');
+        $this->builder->join('event_internal', 'event_internal.id = task.event');
+        $child_task = $this->builder->get();
+        $this->builder = $this->db->table('task');
+        $this->builder->where('project_id', $id);
+        $task = $this->builder->get();
+        $quality = $this->projectModel->getIssueDevelopment($id);
+        $issueSafelaunch = $this->projectModel->getIssueSafelaunch($id);
+        $eventCustArr = $this->projectModel->getEventCustomer($id);
+        $eventIntArr = $this->projectModel->getEventInternal($id);
+        $nextEvent =  $this->projectModel->getNextEvent($eventIntArr);
+        $currentEvent =  $this->projectModel->getCurrentEvent($eventIntArr);
+        $lastEvent =  $this->projectModel->getLastEvent($eventIntArr);
+        $productivity =  $this->projectModel->getProductivity($id);
+        $this->builder = $this->db->table('child_task_approval');
+        $this->builder->select('child_task.id as cid, fullname, child_task_id, child_task.file, approve_user, update_date, notes, child_task.approve capp, project_name, child_task_approval.approve as ctapp, routes, updated, child_task.concern, task.event, child_task.status, child_task_approval.id as cta_id');
+        $this->builder->join('users', 'approve_user = users.id');
+        $this->builder->join('child_task', 'child_task.id = child_task_approval.child_task_id');
+        $this->builder->join('task', 'task.id = child_task.task_id');
+        $this->builder->join('project', 'task.project_id = project.id');
+        $approvect = $this->builder->get();
+        $Taskpp =  $this->projectModel->getPicTaskPerformance($id);
+        // dd($Taskpp);
+        $ChildTaskpp =  $this->projectModel->getPicChildTaskPerformance($id);
+        $picperform =  $this->projectModel->getPicPerform($Taskpp, $ChildTaskpp);
+        $rioperform =  $this->projectModel->getRioPerform($id);
+        $childrioperform =  $this->projectModel->getChildRioPerfom($id);
+        $riopicperform =  $this->projectModel->getRioPicPerform($rioperform, $childrioperform);
+        $allpicperform =  $this->projectModel->getAllPicPerform($picperform, $riopicperform);
+        // dd($allpicperform);
+        // $statdev =  $this->projectModel->getStatIssueCustdev($id);
+        // dd($rioperform, $childrioperform, $riopicperform, $picperform, $allpicperform);
+        // dd($this->projectModel->getLastUpdatedTask($id));
+        $data = [
+            'tittle' => 'Dashboard Project ' . $queryp->getRow()->project_name,
+            'active_menu' => 'project',
+            'project' => $query->getResult(),
+            'budget' => $budget->getRow(),
+            'launch_cost' => $launch_cost->getRow(),
+            'material_cost' => $material_cost->getRow(),
+            'project_name' => $query->getRow(),
+            'count_task' => $count_task->getRow(),
+            'user' => $queryu->getResult(),
+            'picperform' => $allpicperform,
+            'quality' => $quality,
+            'lastupdatedquality' => $this->projectModel->getLastUpdatedQuality($id),
+            'lastupdatedfinance' => $this->projectModel->getLastUpdatedFinance($id),
+            'issueCustPPAP' => $this->projectModel->getIssueCustPPAP($id),
+            'issueSupPPAP' => $this->projectModel->getIssueSupPPAP($id),
+            'pvtest' => $this->projectModel->getPvTest($id),
+            'pvtestsum' => $this->projectModel->getPvTestSum($id),
+            'cas' => $this->projectModel->getCas($id),
+            'issueSafelaunch' => $issueSafelaunch,
+            'statfinance' => $this->projectModel->getFinancialStat($id,1),
+            'task' => $task->getResult(),
+            'child_task' => $child_task->getResult(),
+            'apu' => $queryau->getResult(),
+            'tlist' => $queryarl->getResult(),
+            'customer' => $queryc->getRow(),
+            'projectrow' => $queryp->getRow(),
+            'jsonEventCustomer' => $this->projectModel->getJsonEventCustomer($id),
+            'jsonEventInternal' => $this->projectModel->getJsonEventInternal($id),
+            'eventCustomer' => $eventCustArr,
+            'eventInternal' => $eventIntArr,
+            'productivity' => $productivity,
+            'nextEvent' => $nextEvent,
+            'currentEvent' => $currentEvent,
+            'lastEvent' => $lastEvent,
+            'id' => $id,
+            'approvect' => $approvect->getResult(),
+            'notif' => $this->adminModel->getNotif()
+        ];
+        return view('project/detailproject', $data);
+    }
+
+    public function deleteproject($id = null, $idc = null)
+    {
+        $this->builder = $this->db->table('task');
+        $this->builder->delete(['project_id' => $id]);
+        $this->builder = $this->db->table('budget');
+        $this->builder->delete(['project_id' => $id]);
+        $this->builder = $this->db->table('launch_cost');
+        $this->builder->delete(['project_id' => $id]);
+        $this->builder = $this->db->table('material_cost');
+        $this->builder->delete(['project_id' => $id]);
+        $model = new ProjectModel();
+        $data['project'] = $model->where('id', $id)->delete();
+        session()->setFlashData('pesan', 'Project has been deleted ✓');
+        return redirect()->to(base_url('project/' . $idc));
+    }
+
+    public function delapprequest($id = null)
+    {
+        $model = new ApproveModel();
+        $data['approve'] = $model->where('id', $id)->delete();
+        session()->setFlashData('pesan', 'Approval request has been deleted ✓');
+        return redirect()->to(base_url('task/'));
+    }
+
+
+    public function editproject($id = null, $idc = null)
+    {
+        if(user()->level_id == 7 || user()->level_id == 8){ return redirect()->to('/user'); }
+        if (!logged_in()) {
+            session()->setFlashData('error', 'Failed! please log in!');
+            return redirect()->to('/login');
+        }
+        $this->builder = $this->db->table('customer');
+        $this->builder->where('id', $idc);
+        $query = $this->builder->get();
+        $data = [
+            'tittle' => 'Edit Project',
+            'active_menu' => 'project',
+            'validation' => \Config\Services::validation(),
+            'project' => $this->projectModel->getProject($id),
+            'notif' => $this->adminModel->getNotif(),
+            'customer' => $query->getRow()
+        ];
+
+        return view('project/editproject', $data);
+    }
+
+
+    public function updateproject($id = 0)
+    {
+        $newprn = $this->request->getVar('new_prn');
+        $oldprn = $this->request->getVar('old_prn');
+        // dd($oldprn, $newprn);
+        $c_id = $this->request->getVar('c_id');
+        if($oldprn == $newprn) {
+            $outprn = $oldprn;
+        } else {
+            if(is_dir("./public/theme/assets/4m change request/".$oldprn)) {
+                $oldpath4m = "./public/theme/assets/4m change request/".$oldprn;
+                $newpath4m = "./public/theme/assets/4m change request/".$newprn;
+                rename($oldpath4m, $newpath4m);
+            }
+            if(is_dir("./public/theme/assets/rio/".$oldprn)) {
+                $oldpathrio = "./public/theme/assets/rio/".$oldprn;
+                $newpathrio = "./public/theme/assets/rio/".$newprn;
+                rename($oldpathrio, $newpathrio);
+            }
+            if(is_dir("./public/theme/assets/document/".$oldprn)) {
+                $oldpathdocument = "./public/theme/assets/document/".$oldprn;
+                $newpathdocument = "./public/theme/assets/document/".$newprn;
+                rename($oldpathdocument, $newpathdocument);
+            }
+            $outprn = $newprn;
+        }
+        $this->projectModel->save([
+            'id' => $id,
+            'project_name' => $outprn,
+            'start' => date("Y-m-d", strtotime($this->request->getVar('start'))),
+            'status' => $this->request->getVar('status'),
+            'end_product' => $this->request->getVar('end_product'),
+        ]);
+        session()->setFlashData('pesan', 'Project detail success change');
+        return redirect()->to('project/' . $c_id);
+    }
+
+    public function addEventCust()
+    {
+        $event_name = $this->request->getVar('event_name');
+        $start = $this->request->getVar('start');
+        $end = $this->request->getVar('end');
+        $idc = $this->request->getVar('idc');
+        $id = $this->request->getVar('project_id');
+        // dd($idc);
+        foreach ($event_name as $l) {
+            if ($l != '') {
+                $tln[] = $l;
+            }
+        }
+        foreach ($start as $l) {
+            if ($l != '') {
+                $tld[] = $l;
+            }
+        }
+        foreach ($end as $l) {
+            if ($l != '') {
+                $fin[] = $l;
+            }
+        }
+        if (!isset($tln) && !isset($tld) && !isset($fin)) {
+            session()->setFlashData('error', 'Failed! Please input event customer');
+            return redirect()->to('detailproject/' . $id . '/' . $idc)->withInput();
+        }
+        $jumlah_dipilihtl = count($tln);
+        $jumlah_dipilihdate = count($tld);
+        if ($jumlah_dipilihtl == $jumlah_dipilihdate) {
+            for ($x = 0; $x < $jumlah_dipilihtl; $x++) {
+                $data = [
+                    'event_name' => $tln[$x],
+                    'project_id' => $id,
+                    'start' => $tld[$x],
+                    'end' => $fin[$x],
+                ];
+                $this->builder = $this->db->table('event_customer');
+                $this->builder->insert($data);
+            }
+        }
+        session()->setFlashData('pesan', 'Success! new event customer has been created ✓');
+        return redirect()->to(base_url('project/detailproject/' . $id . '/' . $idc));
+    }
+
+    public function addEventInt()
+    {
+        $event_name = $this->request->getVar('event_name');
+        $start = $this->request->getVar('start');
+        $end = $this->request->getVar('end');
+        $idc = $this->request->getVar('idc');
+        $id = $this->request->getVar('project_id');
+        foreach ($event_name as $l) {
+            if ($l != '') {
+                $tln[] = $l;
+            }
+        }
+        foreach ($start as $l) {
+            if ($l != '') {
+                $tld[] = $l;
+            }
+        }
+        foreach ($end as $l) {
+            if ($l != '') {
+                $fin[] = $l;
+            }
+        }
+        if (!isset($tln) && !isset($tld) && !isset($fin)) {
+            session()->setFlashData('error', 'Failed! Please input event internal');
+            return redirect()->to('detailproject/' . $id . '/' . $idc)->withInput();
+        }
+        $jumlah_dipilihtl = count($tln);
+        $jumlah_dipilihdate = count($tld);
+        if ($jumlah_dipilihtl == $jumlah_dipilihdate) {
+            for ($x = 0; $x < $jumlah_dipilihtl; $x++) {
+                $data = [
+                    'event_name' => $tln[$x],
+                    'project_id' => $id,
+                    'start' => $tld[$x],
+                    'end' => $fin[$x],
+                ];
+                $this->builder = $this->db->table('event_internal');
+                $this->builder->insert($data);
+            }
+        }
+        session()->setFlashData('pesan', 'Success! new event internal has been created ✓');
+        return redirect()->to(base_url('project/detailproject/' . $id . '/' . $idc));
+    }
+
+    public function event($idp = null, $idc = null, $event = null)
+    {
+        if (!logged_in()) {
+            session()->setFlashData('error', 'Please enter valid credentials');
+            return redirect()->to('/login');
+        }
+        if(user()->level_id == 7 || user()->level_id == 8){ return redirect()->to('/user'); }
+        $event_id = $this->db->table('event_internal')->where('event_name', $event)->where('project_id', $idp)->get()->getRow()->id;
+        $this->builder = $this->db->table('task');
+        $this->builder->select('task.*, fullname, event_name, task.id as task_id');
+        $this->builder->join('project', 'task.project_id = project.id');
+        $this->builder->join('users', 'task.pic = users.id');
+        $this->builder->join('event_internal', 'task.event = event_internal.id');
+        $this->builder->where('project.id', $idp);
+        $this->builder->where('task.event', $event_id);
+        $taskbyevent = $this->builder->get();
+        $this->builder = $this->db->table('child_task');
+        $this->builder->select('child_task.id as cid, approve_user, updated, child_task.file as c_file, child_task.task_id as ctask_id, child_task.concern, child_task.status as cstat, task.pic as tpic, child_task.pic, child_task.due_date, fullname, child_task.approve capp, project_name, child_task_approval.approve as ctapp, task.event, task.concern as parent, child_task_approval.id as cta_id, task.project_id, update_date, notes, child_task_approval.file as ct_file, child_task_id, event_name, child_task.namafile, child_task.description as desc, child_task.updated_at');
+        $this->builder->join('users', 'users.id = child_task.pic');
+        $this->builder->join('task', 'task.id = child_task.task_id');
+        $this->builder->join('child_task_approval', 'child_task_approval.child_task_id = child_task.id');
+        $this->builder->join('project', 'task.project_id = project.id');
+        $this->builder->join('event_internal', 'event_internal.id = task.event');
+        $child_task = $this->builder->get();
+        $this->builder = $this->db->table('child_task_approval');
+        $this->builder->select('child_task.id as cid, fullname, child_task_id, child_task.file, approve_user, update_date, notes, child_task.approve capp, project_name, child_task_approval.approve as ctapp, routes, updated, child_task.concern, task.event, child_task.status, child_task_approval.id as cta_id');
+        $this->builder->join('users', 'approve_user = users.id');
+        $this->builder->join('child_task', 'child_task.id = child_task_approval.child_task_id');
+        $this->builder->join('task', 'task.id = child_task.task_id');
+        $this->builder->join('project', 'task.project_id = project.id');
+        $approvect = $this->builder->get();
+        // dd($taskbyevent->getResult());
+        $this->builder = $this->db->table('users');
+        $this->builder->where('id !=', 1);
+        $this->builder->orderBy('fullname', 'ASC');
+        $queryu = $this->builder->get();
+        $this->builder = $this->db->table('customer');
+        $this->builder->where('id', $idc);
+        $queryc = $this->builder->get();
+        $this->builder = $this->db->table('project');
+        $this->builder->where('id', $idp);
+        $queryp = $this->builder->get();
+        $this->builder = $this->db->table('project');
+        $this->builder->where('id', $idp);
+        $eventIntArr = $this->projectModel->getEventInternal($idp);
+        // dD($eventIntArr);
+        $data = [
+            'tittle' => 'Task Project by Event',
+            'active_menu' => 'project',
+            'project' => $taskbyevent->getResult(),
+            'project_name' => $taskbyevent->getRow(),
+            'user' => $queryu->getResult(),
+            'child_task' => $child_task->getResult(),
+            'approvect' => $approvect->getResult(),   
+            'customer' => $queryc->getRow(),
+            'projectrow' => $queryp->getRow(),
+            'eventinternal' => $eventIntArr,
+            'idp' => $idp,
+            'event' => $event,
+            'event_id' => $event_id,
+            'notif' => $this->adminModel->getNotif()
+        ];
+        return view('user/event', $data);
+    }
+
+    public function editbudget($id = NULL)
+    {
+        // dd(str_replace("." , "", $this->request->getVar('total')));
+        $idc = $this->request->getVar('idc');
+        $data = [
+            'total' => str_replace(".", "", $this->request->getVar('total')),
+            'smt' => str_replace(".", "", $this->request->getVar('smt')),
+            'fa' => str_replace(".", "", $this->request->getVar('fa')),
+            'tooling' => str_replace(".", "", $this->request->getVar('tooling')),
+            'used_smt' => str_replace(".", "", $this->request->getVar('used_smt')),
+            'used_fa' => str_replace(".", "", $this->request->getVar('used_fa')),
+            'used_tooling' => str_replace(".", "", $this->request->getVar('used_tooling')),
+            'updated_at' => date('Y-m-d H:i:s', time()),
+        ];
+        $this->builder = $this->db->table('budget');
+        $this->builder->where('project_id', $id);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! Budget project has been update');
+        return redirect()->to('project/detailproject/' . $id . '/' . $idc);
+    }
+
+    public function editlaunch($id = NULL)
+    {
+        $idc = $this->request->getVar('idc');
+        $data = [
+            'total' => str_replace(".", "", $this->request->getVar('total')),
+            'pv' => str_replace(".", "", $this->request->getVar('pv')),
+            'launch' => str_replace(".", "", $this->request->getVar('launch')),
+            'other' => str_replace(".", "", $this->request->getVar('other')),
+            'used_pv' => str_replace(".", "", $this->request->getVar('used_pv')),
+            'used_launch' => str_replace(".", "", $this->request->getVar('used_launch')),
+            'used_other' => str_replace(".", "", $this->request->getVar('used_other')),
+            'updated_at' => date('Y-m-d H:i:s', time()),
+        ];
+        $this->builder = $this->db->table('launch_cost');
+        $this->builder->where('project_id', $id);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! Launch cost project has been update');
+        return redirect()->to('project/detailproject/' . $id . '/' . $idc);
+    }
+
+    public function editmaterial($id = NULL)
+    {
+        $idc = $this->request->getVar('idc');
+        $data = [
+            'total' => str_replace(".", "", $this->request->getVar('total')),
+            'mcomp' => str_replace(".", "", $this->request->getVar('mcomp')),
+            'ecomp' => str_replace(".", "", $this->request->getVar('ecomp')),
+            'used_mcomp' => str_replace(".", "", $this->request->getVar('used_mcomp')),
+            'used_ecomp' => str_replace(".", "", $this->request->getVar('used_ecomp')),
+            'updated_at' => date('Y-m-d H:i:s', time()),
+        ];
+        $this->builder = $this->db->table('material_cost');
+        $this->builder->where('project_id', $id);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! Material cost project has been update');
+        return redirect()->to('project/detailproject/' . $id . '/' . $idc);
+    }
+
+    public function editEventCust($id = NULL)
+    {
+        $idc = $this->request->getVar('idc');
+        $idp = $this->request->getVar('project_id');
+        $data = [
+            'event_name' => $this->request->getVar('event_name'),
+            'start' => date("Y-m-d", strtotime($this->request->getVar('start'))),
+            'end' => date("Y-m-d", strtotime($this->request->getVar('end'))),
+        ];
+        $this->builder = $this->db->table('event_customer');
+        $this->builder->where('id', $id);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! Event customer project has been change');
+        return redirect()->to('project/detailproject/' . $idp . '/' . $idc);
+    }
+
+    public function deleteEventCust($id = null, $idp = null, $idc = null)
+    {
+        $this->builder = $this->db->table('event_customer');
+        $this->builder->delete(['id' => $id]);
+        session()->setFlashData('pesan', 'Event customer has been deleted ✓');
+        return redirect()->to(base_url('project/detailproject/' . $idp . '/' . $idc));
+    }
+
+    public function editEventInt($id = NULL)
+    {
+        $idc = $this->request->getVar('idc');
+        $idp = $this->request->getVar('project_id');
+        $data = [
+            'event_name' => $this->request->getVar('event_name'),
+            'start' => date("Y-m-d", strtotime($this->request->getVar('start'))),
+            'end' => date("Y-m-d", strtotime($this->request->getVar('end'))),
+            'flag' => $this->request->getVar('flag'),
+        ];
+        $this->builder = $this->db->table('event_internal');
+        $this->builder->where('id', $id);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! Event internal project has been change');
+        return redirect()->to('project/detailproject/' . $idp . '/' . $idc);
+    }
+
+    public function editPict()
+    {
+        $idc = $this->request->getVar('idc');
+        $idp = $this->request->getVar('project_id');
+        if (!$this->validate([
+            'photo' => [
+                'rules' => 'max_size[photo,5024]|is_image[photo]|mime_in[photo,image/jpg,image/jpeg,image/png]',
+            ]
+        ])) {       
+            session()->setFlashData('errorfix', 'Failed! image project failed change');
+            return redirect()->to('project/detailproject/'. $idp . '/' . $idc)->withInput();
+        };
+        $fileUserImage = $this->request->getFile('photo');
+        //cek gambar lama/tidak
+        if ($fileUserImage->getError() == 4) {
+            $namaUserImage = $this->request->getVar('photo_lama');
+        } else {
+            $namaUserImage = $fileUserImage->getRandomName();
+            $fileUserImage->move('public/theme/assets/photo/', $namaUserImage);
+        }
+        $data = [
+            'pict' => $namaUserImage,
+        ];
+        $this->builder = $this->db->table('project');
+        $this->builder->where('id', $idp);
+        $this->builder->update($data);
+        session()->setFlashData('pesan', 'Success! image project has been change');
+        return redirect()->to('project/detailproject/' . $idp . '/' . $idc);
+    }
+
+    public function deleteEventInt($id = null, $idp = null, $idc = null)
+    {
+        $this->builder = $this->db->table('event_internal');
+        $this->builder->delete(['id' => $id]);
+        session()->setFlashData('pesan', 'Event customer has been deleted ✓');
+        return redirect()->to(base_url('project/detailproject/' . $idp . '/' . $idc));
+    }
+
+
+}

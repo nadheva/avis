@@ -1,0 +1,93 @@
+CRITICAL - 2021-07-05 21:06:40 --> Invalid file: /home.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/home.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/home', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Home.php(9): view('/home')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:06:55 --> Invalid file: /dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('/dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Home.php(9): view('/dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:12:02 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:12:17 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:12:53 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:13:34 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:14:24 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:15:57 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-05 21:17:07 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\project-dashboard\app\Controllers\Dashboard.php(9): view('dashboard')
+#3 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-07-05 23:22:27 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-07-05 23:23:34 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-07-05 23:24:35 --> Error connecting to the database: Class 'SQLite3' not found

@@ -1,0 +1,145 @@
+CRITICAL - 2021-11-22 14:02:41 --> filesize(): stat failed for public/theme/assets/baan/K1ZA/dummies (2).pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 685, Array)
+#1 C:\xampp\htdocs\avis\app\Views\bom\index.php(685): filesize('public/theme/as...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom.php(61): view('bom/index', Array)
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-22 14:04:11 --> File not found: public/theme/assets/baan/K1ZA/dummies (2).pdf
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/theme/as...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\HTTP\DownloadResponse.php(116): CodeIgniter\Files\File->__construct('public/theme/as...', true)
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(786): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/theme/as...')
+#3 C:\xampp\htdocs\avis\app\Controllers\Bom.php(372): CodeIgniter\HTTP\Response->download('dummies (2).pdf', NULL)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->baandownload('K1ZA', 'dummies (2).pdf')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 14:04:29 --> unlink(./public/theme/assets/baan/K1ZA/dummy 3.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'C:\\xampp\\htdocs...', 315, Array)
+#1 C:\xampp\htdocs\avis\app\Controllers\Bom.php(315): unlink('./public/theme/...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->delbaanfile('8', '1')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 14:04:41 --> unlink(./public/theme/assets/baan/K1ZA/dummy 3.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'C:\\xampp\\htdocs...', 315, Array)
+#1 C:\xampp\htdocs\avis\app\Controllers\Bom.php(315): unlink('./public/theme/...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->delbaanfile('8', '1')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 14:04:56 --> unlink(./public/theme/assets/baan/K1ZA/dummy 3.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'C:\\xampp\\htdocs...', 315, Array)
+#1 C:\xampp\htdocs\avis\app\Controllers\Bom.php(315): unlink('./public/theme/...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->delbaanfile('8', '1')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-22 14:05:15 --> unlink(./public/theme/assets/baan/K1ZA/dummy 3.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', 'C:\\xampp\\htdocs...', 315, Array)
+#1 C:\xampp\htdocs\avis\app\Controllers\Bom.php(315): unlink('./public/theme/...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->delbaanfile('8', '1')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-22 14:17:24 --> Unknown column 'bom_file.model_id' in 'field list'
+CRITICAL - 2021-11-22 14:17:24 --> Unknown column 'bom_file.model_id' in 'field list'
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `bom_app...')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `bom_app...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `bom_app...')
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `bom_app...', Array, false)
+#4 C:\xampp\htdocs\avis\app\Models\BomModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom.php(40): App\Models\BomModel->getApproveBom()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-22 14:19:42 --> Trying to get property 'model' of non-object
+#0 C:\xampp\htdocs\avis\app\Views\bom\index.php(675): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 675, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom/index', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom.php(61): view('bom/index', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 14:38:23 --> Undefined variable: level
+#0 C:\xampp\htdocs\avis\app\Views\admin\edit.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/edit', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Admin.php(66): view('admin/edit', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->edit('38')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 14:40:52 --> Undefined property: stdClass::$level_id
+#0 C:\xampp\htdocs\avis\app\Views\admin\edit.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/edit', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Admin.php(69): view('admin/edit', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->edit('38')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 14:42:30 --> Undefined index: depart_id
+#0 C:\xampp\htdocs\avis\app\Views\admin\edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/edit', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Admin.php(69): view('admin/edit', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->edit('38')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 14:42:39 --> Undefined index: depart_id
+#0 C:\xampp\htdocs\avis\app\Views\admin\edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/edit', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Admin.php(69): view('admin/edit', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->edit('38')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 15:38:27 --> Call to undefined method App\Models\BaanModel::getApprovalFinance
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom.php(82): CodeIgniter\Model->__call('getApprovalFina...', Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom->model('1')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 16:07:17 --> Undefined variable: finance
+#0 C:\xampp\htdocs\avis\app\Views\layout\footer.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/footer', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(91): CodeIgniter\View\View->include('layout/footer')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

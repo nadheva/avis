@@ -1,0 +1,357 @@
+CRITICAL - 2021-07-16 07:28:45 --> Undefined variable: user
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 21, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(46): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 07:32:13 --> Undefined variable: user
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 21, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(46): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 07:39:12 --> Cannot use object of type stdClass as array
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(49): view('user/project', Array)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2021-07-16 07:41:51 --> Cannot use object of type stdClass as array
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(49): view('user/project', Array)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2021-07-16 07:42:47 --> A non-numeric value encountered
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\lenovo...', 21, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(49): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 07:49:19 --> Undefined variable: users
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 1, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(46): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 08:14:59 --> Undefined variable: project
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 44, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(60): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->customer()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 08:24:38 --> Undefined property: stdClass::$logo
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\customer.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lenovo...', 47, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/customer', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(60): view('user/customer', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->customer()
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:01:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:01:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:03:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:03:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:03:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:03:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:03:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:03:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 09:05:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+CRITICAL - 2021-07-16 09:05:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `customer`
+JOIN `project` ON `project`.`cust_id` = `cust`.`id`...' at line 1
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `custome...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:10:09 --> Too few arguments to function App\Controllers\User::project(), 0 passed in C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2021-07-16 09:13:01 --> Undefined property: stdClass::$start
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lenovo...', 50, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(51): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:13:20 --> Undefined property: stdClass::$id
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lenovo...', 57, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(51): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:14:43 --> Undefined property: stdClass::$project_name
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\lenovo...', 49, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(51): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:36:25 --> Cannot use object of type stdClass as array
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(50): view('user/project', Array)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2021-07-16 09:36:55 --> Cannot use object of type stdClass as array
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(50): view('user/project', Array)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#9 {main}
+CRITICAL - 2021-07-16 09:51:08 --> Trying to get property 'customer_name' of non-object
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\lenovo...', 8, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(50): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('2')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:52:53 --> Trying to get property 'customer_name' of non-object
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\lenovo...', 115, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(50): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('2')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 09:58:49 --> Undefined variable: project_name
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 113, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(52): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('2')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 10:04:01 --> Undefined variable: id
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\lenovo...', 141, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(53): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('1')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2021-07-16 10:08:31 --> Cannot add or update a child row: a foreign key constraint fails (`pdavi`.`project`, CONSTRAINT `project_ibfk_1` FOREIGN KEY (`cust_id`) REFERENCES `customer` (`id`))
+CRITICAL - 2021-07-16 10:08:31 --> Cannot add or update a child row: a foreign key constraint fails (`pdavi`.`project`, CONSTRAINT `project_ibfk_1` FOREIGN KEY (`cust_id`) REFERENCES `customer` (`id`))
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pr...')
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(169): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->addproject()
+#10 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#14 {main}
+CRITICAL - 2021-07-16 10:13:16 --> Trying to get property 'customer_name' of non-object
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\lenovo...', 8, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(53): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('undefined')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2021-07-16 10:13:51 --> Too few arguments to function App\Controllers\User::project(), 0 passed in C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project()
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#5 {main}
+CRITICAL - 2021-07-16 10:19:39 --> Trying to get property 'customer_name' of non-object
+#0 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Views\user\project.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\lenovo...', 8, Array)
+#1 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/project', Array, true)
+#4 C:\Users\lenovo\Downloads\AVI\project-dashboard\app\Controllers\User.php(53): view('user/project', Array)
+#5 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->project('undefined')
+#6 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\AVI\project-dashboard\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\AVI\project-dashboard\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lenovo...')
+#10 {main}

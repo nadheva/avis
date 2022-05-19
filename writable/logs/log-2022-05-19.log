@@ -1,0 +1,75 @@
+ERROR - 2022-05-19 09:50:06 --> Error connecting to the database: Unknown database 'pdavi'
+CRITICAL - 2022-05-19 09:50:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pdavi'
+#0 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 D:\xampp\htdocs\avis\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 D:\xampp\htdocs\avis\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 D:\xampp\htdocs\avis\vendor\myth\auth\src\Controllers\AuthController.php(94): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\avis\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-19 09:51:26 --> filesize(): stat failed for public/theme/assets/rio/Example K2SA/dummies.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'D:\\xampp\\htdocs...', 1138)
+#1 D:\xampp\htdocs\avis\app\Views\user\dashboard.php(1138): filesize('public/theme/as...')
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#5 D:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#6 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 09:53:42 --> filesize(): stat failed for public/theme/assets/rio/Example K2SA/dummies.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'D:\\xampp\\htdocs...', 1138)
+#1 D:\xampp\htdocs\avis\app\Views\user\dashboard.php(1138): filesize('public/theme/as...')
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#5 D:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#6 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 09:54:12 --> filesize(): stat failed for public/theme/assets/rio/Example K2SA/dummies.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'D:\\xampp\\htdocs...', 1138)
+#1 D:\xampp\htdocs\avis\app\Views\user\dashboard.php(1138): filesize('public/theme/as...')
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#5 D:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#6 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 09:54:15 --> filesize(): stat failed for public/theme/assets/rio/Example K2SA/dummies.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'D:\\xampp\\htdocs...', 1138)
+#1 D:\xampp\htdocs\avis\app\Views\user\dashboard.php(1138): filesize('public/theme/as...')
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#5 D:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#6 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 09:56:23 --> filesize(): stat failed for public/theme/assets/document/Example K2SA/dummies.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'D:\\xampp\\htdocs...', 1815)
+#1 D:\xampp\htdocs\avis\app\Views\user\dashboard.php(1815): filesize('public/theme/as...')
+#2 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('user/dashboard', Array, true)
+#5 D:\xampp\htdocs\avis\app\Controllers\User.php(201): view('user/dashboard', Array)
+#6 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

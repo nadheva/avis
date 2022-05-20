@@ -1,0 +1,2 @@
+__ci_last_regenerate|i:1653012992;_ci_previous_url|s:33:"http://localhost/avis/bom/model/1";logged_in|s:2:"38";error|s:31:"Failed! file type not supported";__ci_vars|a:3:{s:5:"error";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:4:{s:5:"model";s:4:"K1ZA";s:4:"type";s:2:"26";s:5:"notes";s:5:"tes
+";s:8:"id_model";s:1:"1";}}_ci_validation_errors|s:68:"a:1:{s:7:"fileapp";s:40:"fileapp does not have a valid mime type.";}";

@@ -43,6 +43,8 @@ $routes->get('/admin/index', 'Admin::index' , ['filter' => 'role:admin']);
 
 // $routes->get('project/(:segment)', 'project::/$1');
 
+$routes->post('/bom_download', 'Bom-download::store');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

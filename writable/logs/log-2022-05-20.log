@@ -1,0 +1,992 @@
+CRITICAL - 2022-05-20 13:43:33 --> Unclosed '{' on line 10
+#0 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('bom_download')
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('bom_download')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:43:58 --> Cannot declare class App\Models\ReportModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:44:00 --> Cannot declare class App\Models\ReportModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:44:23 --> Cannot declare class App\Models\KaryawanModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 13:45:14 --> Undefined variable $connect
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 13:45:40 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:45:41 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:16 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:17 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:17 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:17 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:17 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:18 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:18 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:18 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:18 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:18 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:19 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:55:55 --> Undefined variable $active_menu
+#0 C:\xampp\htdocs\avis\app\Views\layout\sidebar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/sidebar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(88): CodeIgniter\View\View->include('layout/sidebar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(22): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 13:56:57 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:56:59 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:00 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:00 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:00 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:00 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:00 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:01 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:01 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 13:57:23 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:57:24 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:57:24 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:57:24 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 13:57:34 --> Undefined variable $active_menu
+#0 C:\xampp\htdocs\avis\app\Views\layout\sidebar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/sidebar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(88): CodeIgniter\View\View->include('layout/sidebar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 13:57:36 --> Undefined variable $active_menu
+#0 C:\xampp\htdocs\avis\app\Views\layout\sidebar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/sidebar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(88): CodeIgniter\View\View->include('layout/sidebar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 13:57:36 --> Undefined variable $active_menu
+#0 C:\xampp\htdocs\avis\app\Views\layout\sidebar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/sidebar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(88): CodeIgniter\View\View->include('layout/sidebar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 13:57:53 --> Undefined variable $notif
+#0 C:\xampp\htdocs\avis\app\Views\layout\topbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/topbar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(89): CodeIgniter\View\View->include('layout/topbar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 13:57:55 --> Undefined variable $notif
+#0 C:\xampp\htdocs\avis\app\Views\layout\topbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('layout/topbar', NULL, true)
+#4 C:\xampp\htdocs\avis\app\Views\layout\template.php(89): CodeIgniter\View\View->include('layout/topbar')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#9 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#10 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#11 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#12 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-20 14:04:46 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:47 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:48 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:48 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:48 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:48 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:48 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:49 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:49 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:04:49 --> Undefined variable $file
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 14:05:00 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:05:00 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:05:01 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:05:01 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:05:01 --> Undefined variable $tittle
+#0 C:\xampp\htdocs\avis\app\Views\layout\template.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#5 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(26): view('bom_download/in...')
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#8 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:17:54 --> Undefined variable $data
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:32 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:33 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:33 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:33 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:33 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:33 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:34 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:34 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:34 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:26:36 --> Undefined variable $log
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:28:08 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:28:09 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:28:09 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:28:10 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 14:28:10 --> Undefined property: App\Controllers\Bom_download::$db
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 15:04:12 --> Undefined property: CodeIgniter\View\View::$db2
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(36): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:05:47 --> Undefined variable $query
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:05:48 --> Undefined variable $query
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:05:48 --> Undefined variable $query
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:05:49 --> Undefined variable $query
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:06:53 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:06:54 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:06:54 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:06:55 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:04 --> Attempt to read property "model" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:05 --> Attempt to read property "model" on array
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:31 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:32 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:33 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:33 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:48 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:49 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:49 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:50 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:50 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:58 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:59 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:59 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:07:59 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(37): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:09:13 --> Cannot declare class App\Models\ModelModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 15:09:14 --> Cannot declare class App\Models\ModelModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 15:09:15 --> Cannot declare class App\Models\ModelModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-20 15:10:34 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(38): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:10:35 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(38): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:10:35 --> Undefined property: mysqli::$model
+#0 C:\xampp\htdocs\avis\app\Views\bom_download\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('bom_download/in...', Array, true)
+#4 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(38): view('bom_download/in...', Array)
+#5 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#6 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#7 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 15:11:07 --> view(): Argument #3 ($options) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\avis\app\Controllers\Bom_download.php on line 38
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(38): view('bom_download/in...', Array, Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-20 15:11:09 --> view(): Argument #3 ($options) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\avis\app\Controllers\Bom_download.php on line 38
+#0 C:\xampp\htdocs\avis\app\Controllers\Bom_download.php(38): view('bom_download/in...', Array, Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Bom_download->index()
+#2 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bom_download))
+#3 C:\xampp\htdocs\avis\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\avis\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -75,10 +75,15 @@
                             <div class="col-6">
                                 <h5 class="card-title">Drawing Download Report</h5>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 mx-0">
+                            <div class="text-right">
+                                    <a href="http://10.14.81.13:8012/visteon_drawing_download/" target="_blank"><span class="bcstm bcstm-warning" style="background-color: #2ec4db; color: white">Visteon Drawing Download</span></a>
+                            </div>
+                            </div>
+                            <div class="col-12 mx-0">
                                 <div class="text-right">
-                                    <!-- <button type="button" data-toggle="modal" data-target="#newTask"
-                                        class="btn btn-primary">Add Model</button> -->
+                                    <a href="http://10.14.81.13:8012/drawing_download/" target="_blank"><span class="bcstm bcstm-warning" style="background-color: #2ec4db; color: white">Customer Drawing Download</span></a>
+                            
                                 </div>
                             </div>
                         </div>

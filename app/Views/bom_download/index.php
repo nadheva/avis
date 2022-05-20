@@ -47,52 +47,30 @@
                                 <div class="col-sm-7">
                                     <select class="form-control" name="model" id="model" type="text" placeholder="*Model" required>
                                     <option value="" disabled selected style="font-color: solid green;">- Select Model -</option>
-
+                                    <?php foreach ($model as $us) : ?>
+                                                <option value="<?= $us->model ?>"><?= $us->model ?></option>
+                                            <?php endforeach; ?>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">File</label>
                                 <div class="col-sm-7">
-                                    <input class="form-control" name="file" id="file" type="text" placeholder="*File" required>
+                                    <select class="form-control" name="file" id="file" type="text" placeholder="*File" required>
+                                    <option value="" disabled selected style="font-color: solid green;">- Select File -</option>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Password</label>
                                 <div class="col-sm-7">
-                                    <input class="form-control" name="password" id="password" type="password" placeholder="*Password (8 Digit)" maxlength="8" required>
+                                    <input class="form-control" name="password" id="password" type="password" placeholder="*Password (8 Digit)" required>
                                 </div>
                             </div>
-              <!-- <div class="col-md-6">
-                <input type="text" name="npk" id="npk" class="form-group" placeholder="*NPK" maxlength="4" required /><br />
-                <input type="text" name="nama" id="nama" class="form-group bg-white" placeholder="*Nama Lengkap" required readonly /><br />
-                <input type="text" name="departemen" id="departemen" class="form-group bg-white" placeholder="*Departemen" required readonly /><br />  
-              </div>
-              <div class="col-md-6">
-                <select type="select" name="model" id="model" class="form-group" required >
-                  <option value="" disabled selected style="font-color: solid green;">- Select Model -</option>
-
-                </select>
-                <br />
-
-                <select type="select" name="file" id="file" class="form-group" required >
-                  <option value="" disabled selected style="font-color: solid green;">- Select File -</option>
-                </select>
-                <br />
-
-                <input type="password" name="password" id="password" class="form-group" placeholder="*Password (8 digit)" maxlength="8" required /><br /> 
-              </div>
-              <div class="row justify-content-end" style="width: 100%">
-                <input class="col-xs-3 btn btn-success ml-1" type="submit" name="download" id="download" value="Download" />
-                <input class="col-xs-3 btn btn-danger mx-1" type="reset" name="reset" id="reset" value="Reset" />
-              </div>
-            </div> -->
-            <div class="row">
                                 <div class="row justify-content-end" style="width: 100%">
                                     <input type="submit" class="col-xs-3 btn btn-success ml-1" name="download" id="download" value="Download" />
                                     <input type="reset" class="col-xs-3 btn btn-danger ml-1" name="reset" id="reset" value="Reset" />
                                 </div>
-                            </div>
+                          </div>
                         </form>
                     </div>
                 </div>

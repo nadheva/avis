@@ -14,7 +14,7 @@ class Bom_download extends BaseController
 
     public function __construct()
     {
-        $this->db2 = db_connect("otherDb"); // other database group
+        $this->db2      = \Config\Database::connect("otherDb");
         // $this->ReportModel = new ReportModel();
         // $this->KaryawanModel = new KaryawanModel();
         $this->Model2Model = new Model2Model();
@@ -28,19 +28,23 @@ class Bom_download extends BaseController
             return redirect()->to('/login');
 
         }
-
+        $this->builder = $this->db2->table('model');
+        $model = $this->builder->get();
+        $this->builder = $this->db2->table('file');
+        $file = $this->builder->get();
         $data = [
-            'tittle' => 'Bill Of Materials',
+            'tittle' => 'Bill Of Materials Download',
             'active_menu' => 'bom',
             'validation' => \Config\Services::validation(),
             'notif' => $this->adminModel->getNotif(),
+            'model' => $model->getResult(),
+            'file' => $file->getResult(),
             // 'model' => $this->db2->table('model')->get(),
         ];
-        $this->builder = $this->db2->table('model');
-        $model = $this->builder->get();
+
         // $model = $this->db2->table('model')->get();
         // dd($model);
-        return view('bom_download/index', $data, $model);
+        return view('bom_download/index', $data);
     }
 
     public function create()

@@ -63,6 +63,15 @@ if(!isset($uap_cs)){
             <div class="col-xl">
                 <div class="card">
                     <div class="card-body">
+                    <div class="row">
+                            <div class="col-6">
+                            </div>
+                            <div class="col-6">
+                                <div class="text-right">
+                                <a href="http://10.14.81.13:8012/bom_download/" target="_blank"><span class="bcstm bcstm-warning" style="background-color: #2ec4db; color: white">Link to BOM</span></a>
+                                </div>
+                            </div>
+                        </div>
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="bom-tab" data-toggle="tab" href="#bom" role="tab" aria-controls="bom" aria-selected="true">BOM - Request Approve</a>

@@ -82,7 +82,7 @@
                   var npkdata = $('#npk').val();  // AMBIL isi dari file NPM masukkan variabel 'npmfromfield'
                   $.ajax({        // Memulai ajax
                     type: "POST",      
-                    url: "<?= base_url('') ?>/bom_download/karyawan",    // file PHP yang akan merespon ajax
+                    url: "/bom_download/karyawan",    // file PHP yang akan merespon ajax
                     data: { npk: npkdata}   // data POST yang akan dikirim
                   })
                     .done(function( hasilajax ) {   // KETIKA PROSES Ajax Request Selesai
@@ -106,7 +106,7 @@
                     var model = $(this).val();
                     $.ajax({
                       type: "POST",      
-                      url: "<?= base_url('') ?>/bom_download/check",
+                      url: "/bom_download/file",
                       data: { model: model}
                     })
                       .done(function( hasilajax ) {

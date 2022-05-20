@@ -43,7 +43,9 @@ $routes->get('/admin/index', 'Admin::index' , ['filter' => 'role:admin']);
 
 // $routes->get('project/(:segment)', 'project::/$1');
 
-$routes->post('/bom_download', 'Bom-download::store');
+$routes->post('/bom_download', 'Bom_download::store');
+$routes->post('/bom_download/karyawan', 'Bom_download::karyawan');
+$routes->post('/bom_download/file', 'Bom_download::file');
 
 /*
  * --------------------------------------------------------------------

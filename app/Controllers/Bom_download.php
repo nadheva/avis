@@ -125,12 +125,13 @@ class Bom_download extends BaseController
 
     
 }
-        public function check()
+        public function file()
         {
             $model = $_POST['model'];
             $namafile = "<option value='' disabled selected>- Select File -</option>";
             if ($model){
-                $query =  $this->db2->table('file')->where('model', $model);
+                $this->builder = $this->db2->table('file');
+                $query = $this->builder->where('model', $model);
                 if (mysqli_num_rows($query)!=0){
                     while ($data = mysqli_fetch_array($query)){
                     $file = $data['namafile'];
@@ -138,7 +139,6 @@ class Bom_download extends BaseController
                     };
                 }
             }
-            $this->db2->table('file')->where('model', $model);
             return $namafile;
         }
 
@@ -146,7 +146,8 @@ class Bom_download extends BaseController
         {
             $npk = $_POST['npk'];
             if ($npk != ''){
-                $query = $this->db2->table('karyawan')->where('npk', $npk);
+                $this->builder = $this->db2->table('karyawan');
+                $query = $this->builder->where('npk', $npk);
                 if (mysqli_num_rows($query)!=0){
                     $karyawan = mysqli_fetch_array($query);
                     $data = array(

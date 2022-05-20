@@ -47,9 +47,7 @@
                                 <div class="col-sm-7">
                                     <select class="form-control" name="model" id="model" type="text" placeholder="*Model" required>
                                     <option value="" disabled selected style="font-color: solid green;">- Select Model -</option>
-                                    <?php foreach ($model as $us) : ?>
-                                                <option value="<?= $us->model ?>"><?= $us->model ?></option>
-                                            <?php endforeach; ?>
+
                                     </select>
                                 </div>
                             </div>

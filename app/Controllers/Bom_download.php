@@ -28,13 +28,18 @@ class Bom_download extends BaseController
             return redirect()->to('/login');
 
         }
-        $model = $this->Model2Model->get();
+
         $data = [
             'tittle' => 'Bill Of Materials',
             'active_menu' => 'bom',
             'validation' => \Config\Services::validation(),
             'notif' => $this->adminModel->getNotif(),
+            // 'model' => $this->db2->table('model')->get(),
         ];
+        $this->builder = $this->db2->table('model');
+        $model = $this->builder->get();
+        // $model = $this->db2->table('model')->get();
+        // dd($model);
         return view('bom_download/index', $data, $model);
     }
 
